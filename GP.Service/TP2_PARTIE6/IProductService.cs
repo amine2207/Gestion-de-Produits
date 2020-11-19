@@ -11,5 +11,11 @@ namespace GP.Service.TP2_PARTIE6
     public interface IProductService : IService<Product>
     {
         IEnumerable<Product> FindMost5ExpensiveProds();
+
+        float UnavailableProductsPercentage();
+
+        IEnumerable<Product> GetProdsByClient(Client c);
+
+        void DeleteOldProducts();
     }
 }
