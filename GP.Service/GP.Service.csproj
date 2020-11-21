@@ -56,6 +56,10 @@
     <Compile Include="ManageProvider.cs" />
     <Compile Include="ProductExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TP2_PARTIE6\FactureService.cs" />
+    <Compile Include="TP2_PARTIE6\IFactureService.cs" />
+    <Compile Include="TP2_PARTIE6\IProductService.cs" />
+    <Compile Include="TP2_PARTIE6\ProductService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GP.Data\GP.Data.csproj">
@@ -65,6 +69,10 @@
     <ProjectReference Include="..\GP.Domain\GP.Domain.csproj">
       <Project>{60c99afa-c769-4f32-a19a-a7ba1dbebf96}</Project>
       <Name>GP.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServicesPattern\ServicesPattern.csproj">
+      <Project>{4c6bab41-9730-4826-a199-2d66c48acef6}</Project>
+      <Name>ServicesPattern</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

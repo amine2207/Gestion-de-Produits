@@ -59,6 +59,13 @@
     <Compile Include="Conventions\CinKeyConvention.cs" />
     <Compile Include="Conventions\DateTimeConvention.cs" />
     <Compile Include="GPContext.cs" />
+    <Compile Include="Infrastructure\DatabaseFactory.cs" />
+    <Compile Include="Infrastructure\Disposable.cs" />
+    <Compile Include="Infrastructure\IDatabaseFactory.cs" />
+    <Compile Include="Infrastructure\IRepositoryBase.cs" />
+    <Compile Include="Infrastructure\IUnitOfWork.cs" />
+    <Compile Include="Infrastructure\RepositoryBase.cs" />
+    <Compile Include="Infrastructure\UnitOfWork.cs" />
     <Compile Include="Migrations\202011121345133_migInit.cs" />
     <Compile Include="Migrations\202011121345133_migInit.designer.cs">
       <DependentUpon>202011121345133_migInit.cs</DependentUpon>
